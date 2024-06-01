@@ -45,6 +45,7 @@ To run this project, follow these steps:
 
 - [CrewAI](https://www.crewai.com/)
 - [Langchain](https://www.langchain.com/)
+- [Google Gemini Flash 1.5](https://deepmind.google/technologies/gemini/flash/)
 - [Streamlit](https://streamlit.io/)
 - [SerperAPI](https://serper.dev/)
 - [Python](https://www.python.org/)
