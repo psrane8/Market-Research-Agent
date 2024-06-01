@@ -6,6 +6,8 @@ The objective of this application is to assist users in performing comprehensive
 
 ## Demo of the app
 
+https://github.com/psrane8/Market-Research-Agent/assets/49234060/2ecdf874-420a-48db-a4b2-411e3424cd28
+
 ## Installation
 
 To run this project, follow these steps:
