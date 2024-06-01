@@ -2,4 +2,4 @@ load_dotenv
 streamlit
 crewai
 langchain_google_genai
-crewai_tools
+langchain_openai
