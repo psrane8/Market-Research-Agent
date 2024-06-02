@@ -6,8 +6,8 @@ import os
 from agents import reporting_analyst,market_research_analyst,financial_analyst
 from tasks import reporting_analysis,market_analysis,financial_analysis
 
-
-class StreamToExpander:
+# Used to stream sys output on the streamlit frontend
+class StreamToContainer:
     def __init__(self, container):
         self.container = container
         self.buffer = []
@@ -63,7 +63,7 @@ with st.form("form"):
 if submitted:
     with st.status("🤖 **Agents at work...**",expanded=True,state="running") as status:
         with st.container(height=300):
-            sys.stdout = StreamToExpander(st)
+            sys.stdout = StreamToContainer(st)
             #Defining the crew comprising of different agents
             crew = Crew(
             agents=[financial_analyst, market_research_analyst, reporting_analyst],
